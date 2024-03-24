@@ -1,0 +1,27 @@
+{
+  "name": "stackflow-workshop",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@stackflow/core": "^0.15.0",
+    "@stackflow/plugin-basic-ui": "^0.15.0",
+    "@stackflow/plugin-renderer-basic": "^0.15.0",
+    "@stackflow/react": "^0.15.0",
+    "@vanilla-extract/css": "^1.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@vanilla-extract/vite-plugin": "^3.6.1",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.3",
+    "vite-plugin-checker": "^0.5.1"
+  }
+}
